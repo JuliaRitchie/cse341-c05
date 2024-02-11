@@ -6,4 +6,7 @@ router.get('/', (req, res) =>{
 });
 
 
+
+router.use('/', require('./swagger'));
+
 module.exports = router;
