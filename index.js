@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 const routes = require("./routes/index");
 const mongodb = require('./db/connect');
 app.use('/', express.json());
-app.use('/', routes);
+app.use('/', routes); 
 
 mongodb.initDb((err, mongodb) => {
     if (err) {
