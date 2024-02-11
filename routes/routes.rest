@@ -1,0 +1,19 @@
+POST http://localhost:3000/profiles/update/65c858cd93b56ea3c2a79c24 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Julia",
+    "lastName":"Nye",
+    "email":"admin@email.com",
+    "accountType": "Admin"
+}
+###
+POST http://cse341-l05-website.onrender.com/profiles/update/65c858cd93b56ea3c2a79c24 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Julia",
+    "lastName":"Nye",
+    "email":"admin@email.com",
+    "accountType": "Admin"
+}
