@@ -5,7 +5,6 @@ const routes = require("./routes/index");
 const mongodb = require('./db/connect');
 app.use('/', express.json());
 app.use('/', routes); 
-
 mongodb.initDb((err, mongodb) => {
     if (err) {
       console.log(err);
