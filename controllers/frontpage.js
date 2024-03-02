@@ -6,8 +6,7 @@ function createFrontPage(req, res) {
     } catch (err) {
         console.error(err);
         res.status(500).send('Internal Server Error');
-        res.status(404).console.log('Page does not exist...')
-    };
+    }
 }
 
 function createLoginPage(req, res){
@@ -16,7 +15,7 @@ function createLoginPage(req, res){
     } catch (err) {
         console.error(err);
         res.status(500).send('Internal Server Error');
-    };
+    }
 }
 
 function createAccountPage(req, res){
@@ -25,7 +24,7 @@ function createAccountPage(req, res){
     } catch (err) {
         console.error(err);
         res.status(500).send('Internal Server Error');
-    };
+    }
 }
 
 module.exports = {

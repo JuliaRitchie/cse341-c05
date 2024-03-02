@@ -1,7 +1,14 @@
-const router = require('express').Router();
+const express = require('express');
+const router = express.Router();
 
-//Login form submission
+// Route handler for login form submission
+router.post('/login', (req, res) => {
+    // Logic for handling login form submission
+});
 
-//Create Account form submission
+// Route handler for create account form submission
+router.post('/create', (req, res) => {
+    // Logic for handling create account form submission
+});
 
 module.exports = router;
